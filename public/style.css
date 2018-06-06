@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: tahoma;
+  text-align: center;
+  margin: auto;
+  padding: 0.5%;
+}
+body{
+  background-image: url('http://www.ginosdial-a-pizza.co.uk/upload/bg-pizza.jpg');
+  background-size: cover;
+}
+
+h1, p{
+  text-align: centre;
+  color: white;
+}
+
+h1{
+  text-shadow: 5px 5px #32312b;
+}
+
+.pizza-orders{
+  color: white;
+  background: rgba(112, 128, 144, 0.8);
+  /* border: 1px red dotted; */
+  width: auto;
+  height: auto;
+}
+
+.order{
+  /* border: 3px red dotted; */
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  border : 1px black;
+}
+
+a {
+  display: block;
+  text-align: centre;
+  padding: 20px, 16px;
+  text-decoration: none;
+}
+
+.button{
+  border: 2px black solid;
+  width: 15em;
+}
